@@ -1,5 +1,5 @@
 library(dplyr)
-setwd("./UCI_HAR_Dataset") #note the name, change path if not a child of current working dir
+setwd("./UCI HAR Dataset") #note the name, change path if not a child of current working dir
 #####LOAD FILES
 activity_labels<-read.csv("activity_labels.txt", header = FALSE, sep = " ")
 features<-read.table("features.txt", strip.white = TRUE, header = FALSE, as.is = TRUE)
